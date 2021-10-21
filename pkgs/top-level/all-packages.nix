@@ -7970,6 +7970,8 @@ with pkgs;
 
   ogdf = callPackage ../development/libraries/ogdf { };
 
+  oh-my-bash = callPackage ../shells/bash/oh-my-bash { };
+
   oh-my-zsh = callPackage ../shells/zsh/oh-my-zsh { };
 
   ola = callPackage ../applications/misc/ola { };
